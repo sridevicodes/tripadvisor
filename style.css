@@ -1,0 +1,526 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Gabarito", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  height: 80px;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.navbar__section1 {
+  width: 200px;
+}
+
+.navbar__logo {
+  height: 200px;
+  width: 200px;
+  padding-left: 60px;
+}
+
+.navbar__section2 {
+  display: flex;
+  width: 200px;
+  align-items: center;
+  gap: 30px;
+
+}
+
+.navbar__section2 p:hover {
+  border: solid 2px black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.navbar__section3 {
+  display: flex;
+  gap: 30px;
+  width: 200px;
+  align-items: center;
+  padding-left: 60px;
+}
+
+.navbar__section3--button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 15px;
+  border-radius: 25px;
+}
+
+.where {
+  height: 300px;
+  background-color: white;
+  text-align: center;
+
+}
+
+.where__title {
+  font-size: 80px;
+}
+
+.where__choose {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin: 50px;
+  font-size: larger;
+  transition: border 0.5s;
+}
+
+.where__choose:hover {}
+
+.where__choose--icons:hover {
+  border: solid 2px black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+
+}
+
+
+
+.where__input input {
+  border: 1px soild black;
+  width: 60%;
+  font-size: 20px;
+  background-color: transparent;
+  padding: 20px;
+  border: none;
+}
+
+.where__input input:focus {
+  outline: none;
+}
+
+.where__input {
+  border: solid 1px black;
+  width: 70%;
+  margin-left: 180px;
+  border-radius: 40px;
+}
+
+.where__choose--home {
+  height: 20px;
+  width: 20px;
+  transition: 0.5s;
+}
+
+.where__choose--home:hover {
+  border-bottom: solid 1px black;
+}
+
+.where__choose--plane {
+  height: 20px;
+  width: 20px;
+}
+
+.search {
+  height: 15px;
+  width: 15px;
+}
+
+/*welcome image*/
+.welcome__img img {
+  width: 100%;
+  position: relative;
+  height: 600px;
+}
+
+.welcome__img {
+  margin: 40px;
+  border-radius: 20px;
+
+}
+
+.welcome__img--one {
+  border-radius: 20px;
+}
+
+.welcome__lines {
+  position: absolute;
+  top: 100%;
+  right: 8%;
+  color: black;
+  font-size: x-large;
+  width: 400px;
+  background-color: aliceblue;
+  padding: 30px;
+  border-radius: 15px;
+  border: solid 1px black;
+}
+
+.welcome__ai {
+  background-color: pink;
+  font-size: medium;
+  width: 160px;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.welcome__ai__star {
+  height: 25px;
+  width: 25px;
+
+}
+
+/*sesides*/
+.seasides {
+  padding: 20px;
+  position: relative;
+
+
+}
+
+.seasides__card {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+
+}
+
+.seasides__card img {
+  width: 280px;
+  height: 280px;
+  margin: 5px;
+  padding: 5px;
+  gap: 1px;
+  border-radius: 20px;
+  border: solid 1px black;
+}
+
+
+.seasides__title {
+  position: absolute;
+}
+
+.seasides__title1 {
+  bottom: 40%;
+  position: absolute;
+  left: 10%;
+  color: yellow;
+  font-size: 30px;
+
+}
+
+.seasides__title2 {
+  bottom: 40%;
+  position: absolute;
+  left: 35%;
+  color: yellow;
+  font-size: 30px;
+
+}
+
+.seasides__title3 {
+  bottom: 40%;
+  position: absolute;
+  left: 60%;
+  color: yellow;
+  font-size: 30px;
+
+}
+
+.seasides__title4 {
+  bottom: 40%;
+  position: absolute;
+  left: 80%;
+  color: yellow;
+  font-size: 25px;
+}
+
+/* explore india*/
+.exp_india {
+  margin: 40px;
+}
+
+.exp__india__card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.exp__india__card__img {
+  width: 280px;
+  height: 360px;
+  transition: 2s;
+}
+
+.exp__india__card__img :hover {
+  opacity: 0.8;
+}
+
+.exp__india__card__img img {
+  height: 260px;
+  width: 260px;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.exp__india__card__img__title,
+.exp__india__card__img__desc {
+  padding-left: 10px;
+}
+
+
+
+/*hotel*/
+
+.more {
+  margin: 30px;
+}
+
+.more h1 {
+  margin-left: 20px;
+}
+
+.explore__card {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.explore__card1 img {
+  width: 350px;
+  height: 200px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.explore__card1 h3 {
+  margin-left: 20px;
+}
+
+/* dream destination*/
+.seasides {
+  padding: 20px;
+  position: relative;
+  margin: 30px;
+
+
+}
+
+.seasides__card {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  transition: color 1s;
+  cursor: pointer;
+
+
+
+
+}
+
+.seasides__card img {
+  width: 280px;
+  height: 280px;
+  margin: 5px;
+  padding: 5px;
+  gap: 1px;
+  border-radius: 20px;
+  transition: 2s;
+  border: none;
+
+}
+
+.seasides__card img:hover {
+  cursor: pointer;
+  opacity: 0.6;
+
+}
+
+
+
+
+.seasides__title {
+  position: absolute;
+}
+
+.seasides__dream__title1 {
+  bottom: 10%;
+  position: absolute;
+  left: 3%;
+  color: white;
+  font-size: 30px;
+
+}
+
+.seasides__dream__title2 {
+  bottom: 10%;
+  position: absolute;
+  left: 30%;
+  color: white;
+  font-size: 30px;
+
+}
+
+.seasides__dream__title3 {
+  bottom: 10%;
+  position: absolute;
+  left: 55%;
+  color: white;
+  font-size: 30px;
+
+}
+
+.seasides__dream__title4 {
+  bottom: 10%;
+  position: absolute;
+  left: 78%;
+  color: white;
+  font-size: 25px;
+}
+
+
+/*exit image*/
+.exit__img img {
+  width: 100%;
+  position: relative;
+  height: 600px;
+}
+
+.exit__img {
+  margin: 40px;
+  border-radius: 20px;
+  position: relative;
+
+}
+
+.exit__lines {
+  position: absolute;
+  top: 20%;
+  color: black;
+  left: 10%;
+  font-size: 30px;
+  width: 700px;
+  background-color: aliceblue;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.exit__lines img {
+  width: 90px;
+  height: 90px;
+}
+
+.exit__lines__button {
+  background-color: black;
+  margin: 10px;
+  color: azure;
+  width: 130px;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: medium;
+  text-align: center;
+  transition: 5s;
+}
+
+.exit__lines:hover {
+  background-color: transparent;
+  color: white;
+}
+
+.footer {
+  color: black;
+  height: 400px;
+  margin: 30px;
+}
+
+.footer__one {
+  display: flex;
+  gap: 30px;
+  padding: 10px;
+}
+
+.footer__one p {
+  margin: 20px;
+}
+
+
+.navbar__logo__footer{
+  height: 30px;
+ 
+}
+.footer__policy{
+  display: flex;
+  margin-top: 3px;
+  gap:25px;
+  position: relative;
+  
+}
+.footer__logo__add{
+  position:absolute ;
+  width: 100px;
+
+}
+.footer__logo__add img{
+  gap:3px;
+}
+.footer__logo__add1{
+  position: absolute;
+  right: 20%;
+  height: 20px;
+  width: 20px;
+}
+.footer__logo__add2{
+  position: absolute;
+  right: 22%;
+  height: 20px;
+  width: 20px;
+}
+.footer__logo__add3{
+  position: absolute;
+  right: 24%;
+  height: 20px;
+  width: 20px;
+}
+.footer__logo__add4{
+  position: absolute;
+  right: 26%;
+  height: 20px;
+  width: 20px;
+}
+.footer__logo__add5{
+  position: absolute;
+  right: 28%;
+  height: 20px;
+  width: 20px;
+}
+.footer__policy p{
+  border:solid 2px black;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+@media screen and (max-width:800px) {
+  body {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width:600px) {
+  .seasides__card {
+    flex-basis: 20%;
+    flex-grow: 1;
+   
+  }
+}
+@media screen and (max-width:600px) {
+  .exp__india__card {
+    flex-basis: 40%;
+  }
+  .explore__card{
+    display: none;
+  }
+
+}
