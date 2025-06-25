@@ -13,7 +13,10 @@ body {
   background-color: white;
   justify-content: space-between;
   align-items: center;
-
+  position: sticky;
+  top: 0;
+  background-color: white;
+ 
 }
 
 .navbar__section1 {
@@ -78,37 +81,14 @@ body {
   transition: border 0.5s;
 }
 
-.where__choose:hover {}
-
 .where__choose--icons:hover {
   border: solid 2px black;
   border-top: none;
   border-left: none;
   border-right: none;
-
 }
 
 
-
-.where__input input {
-  border: 1px soild black;
-  width: 60%;
-  font-size: 20px;
-  background-color: transparent;
-  padding: 20px;
-  border: none;
-}
-
-.where__input input:focus {
-  outline: none;
-}
-
-.where__input {
-  border: solid 1px black;
-  width: 70%;
-  margin-left: 180px;
-  border-radius: 40px;
-}
 
 .where__choose--home {
   height: 20px;
@@ -123,6 +103,30 @@ body {
 .where__choose--plane {
   height: 20px;
   width: 20px;
+}
+.where__input input {
+  border: 1px soild black;
+  width: 50%;
+  font-size: 20px;
+  background-color: transparent;
+  padding: 10px;
+  border: none;
+  flex: 1;
+
+}
+.where__input {
+  border: solid 1px black;
+  width: max-content;
+  width: 70%;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ padding: 5px;
+ margin-left: 180px;
+}
+.where__input input:focus {
+  outline: none;
 }
 
 .search {
@@ -172,6 +176,18 @@ body {
   height: 25px;
   width: 25px;
 
+}
+
+.search-button {
+  background-color: green;
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+ 
 }
 
 /*sesides*/
@@ -503,24 +519,17 @@ body {
   border-right: none;
   border-top: none;
 }
-@media screen and (max-width:800px) {
+@media screen and (max-width:600px) {
   body {
     font-size: 10px;
   }
 }
-@media screen and (max-width:600px) {
-  .seasides__card {
-    flex-basis: 20%;
-    flex-grow: 1;
-   
-  }
-}
-@media screen and (max-width:600px) {
-  .exp__india__card {
-    flex-basis: 40%;
-  }
-  .explore__card{
-    display: none;
+  @media screen and (max-width:660px) {
+    .navbar__section2,.navbar__section3{
+      display:block;
   }
 
+
+  
 }
+

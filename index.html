@@ -15,6 +15,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--Tailwind CSS cdn link-->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -51,9 +53,10 @@
           src="./images/house-black-silhouette-without-door.png"> Holiday Homes</p>
 
     </div>
-    <div class="where__input">
+    <div class="where__input" class="">
       <img class="search" src="./images/search.png"></src>
-      <input type="text" placeholder="Places to go, Things to do, Hotels..." type="submit">
+      <input type="text" placeholder="Places to go, Things to do, Hotels...">
+      <button class="search-button">Search</button>
     </div>
   </div>
 
@@ -236,6 +239,13 @@
 
     </div>
   </div>
+
+  <!--footer section-->
+  <section class="bg-green-200 p-10 flex flex-col gap-5">
+    <h1 class="font-bold text-3xl">Greenden</h1>
+    <p >Lorem ipsum dolor sit amet mt-5 consectetur adipisicing elit. Sint sapiente, hic suscipit facilis officiis dicta!</p>
+    <p>@2025greenday.com</p>
+  </section>
 </body>
 
 </html>
